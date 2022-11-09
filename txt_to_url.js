@@ -27,7 +27,7 @@ document.querySelector("#form").addEventListener("submit", function(e){
     else if(fileName.innerText != "" && localStorage.number_of_uses<5)
 	localStorage.number_of_uses++;
     console.log(localStorage.number_of_uses);
-    e.preventDefault();
+    //e.preventDefault();
     
     if(localStorage.number_of_uses>=5 && fileName.innerText != ""){
 	e.preventDefault();
