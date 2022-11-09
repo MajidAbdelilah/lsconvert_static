@@ -24,12 +24,12 @@ document.querySelector("#form").addEventListener("submit", function(e){
     let date = new Date().getDate();
     console.log(date);
     if(!localStorage.number_of_uses) localStorage.number_of_uses = 0;
-    else if(fileName.innerText != "" && localStorage.number_of_uses<=5)
+    else if(fileName.innerText != "" && localStorage.number_of_uses<=5 && && inputFile.size <= 500000)
 	localStorage.number_of_uses++;
     console.log(localStorage.number_of_uses);
     //e.preventDefault();
     
-    if(localStorage.number_of_uses>5 && fileName.innerText != "" && inputFile.size <= 500000){
+    if(localStorage.number_of_uses>5 && fileName.innerText != ""){
 	e.preventDefault();
 	document.querySelector("#file_size_warnning").textContent = "تم تجاوز الحد الاقصى لعدد الاستعمال اليومي"
     }
