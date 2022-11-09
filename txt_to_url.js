@@ -15,6 +15,8 @@ input.addEventListener("change", ()=>{
     inputFile = document.querySelector("input[type=file]").files[0];
     
     fileName.innerText = inputFile.name;
+    document.querySelector("#file_size_warnning").textContent = ""
+    
 })
 
 document.querySelector("#form").addEventListener("submit", function(e){
