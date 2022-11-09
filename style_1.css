@@ -56,3 +56,4 @@ button[type=submit], label, input[type=reset] {
 }
 
 .red{color: var(--imperial-red);}
+.center{text-align: center;}
