@@ -31,7 +31,7 @@ nav p{color: var(--cultured); padding: 0; margin:0; font-size: 20px}
 .color-black{background-color: var(--space-cadet); padding: 64px;}
 .color-black h1{margin-top: 0;}
 .margin-left-right{margin-left: 15%; margin-right: 15%;}
-footer h2{margin-top:0; color: var(--cultured)}
+footer h2{margin-top:0; color: var(--cultured);}
 nav h1 a{color: var(--imperial-red); text-decoration: none;}
 
 form{bisplay: flex; text-align: center;}
@@ -54,6 +54,11 @@ button[type=submit], label, input[type=reset] {
   font-size: 14px;
   
 }
+
+.footer-div{ position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;}
 
 .red{color: var(--imperial-red);}
 .center{text-align: center;}
