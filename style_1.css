@@ -53,12 +53,5 @@ button[type=submit], label, input[type=reset] {
   cursor: pointer;
   font-size: 24px;
   
-}
-
-.footer-div{ position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;}
-
-.red{color: var(--imperial-red);}
+}.red{color: var(--imperial-red);}
 .center{text-align: center;}
