@@ -29,7 +29,7 @@ document.querySelector("#form").addEventListener("submit", function(e){
     console.log(localStorage.number_of_uses);
     //e.preventDefault();
     
-    if(localStorage.number_of_uses>5 && fileName.innerText != ""){
+    if(localStorage.number_of_uses>5 && fileName.innerText != "" && inputFile.size <= 500000){
 	e.preventDefault();
 	document.querySelector("#file_size_warnning").textContent = "تم تجاوز الحد الاقصى لعدد الاستعمال اليومي"
     }
